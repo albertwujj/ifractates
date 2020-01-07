@@ -243,7 +243,7 @@ class SceneFileWriter(object):
             ]
         else:
             command += [
-                '-vcodec', 'libx264',
+                '-vcodec', 'h264',
                 '-pix_fmt', 'yuv420p',
             ]
         if self.livestreaming:
