@@ -3,7 +3,7 @@ from manimlib.imports import *
 def get_intersection(mob1, mob2):
     for p1 in mob1.points:
         for p2 in mob2.points:
-            if np.abs(p1[0] - p2[0]) < 0.1 and np.abs(p1[1] - p2[1]) < 0.1:
+            if np.abs(p1[0] - p2[0]) < 0.2 and np.abs(p1[1] - p2[1]) < 0.2:
                 return np.array([p1[0], p1[1], 0])
 
 
