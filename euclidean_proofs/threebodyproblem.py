@@ -22,4 +22,4 @@ class ThreeBodyProblem(Scene):
                 ShowCreation(circle1),
                 ShowCreation(circle2),
                 ShowCreation(circle3),
-        )
+            )
