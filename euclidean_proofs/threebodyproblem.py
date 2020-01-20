@@ -1,7 +1,7 @@
 from manimlib.imports import *
 from euclidean_proofs.a1equitri import get_intersection
 
-class ThreeBodyProblem:
+class ThreeBodyProblem(Scene):
     def construct(self):
         G = 9.8
         Gm2 = 42
@@ -23,6 +23,3 @@ class ThreeBodyProblem:
                 ShowCreation(circle2),
                 ShowCreation(circle3),
         )
-
-def __main__():
-    return 0
