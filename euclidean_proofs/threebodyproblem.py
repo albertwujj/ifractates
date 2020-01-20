@@ -7,9 +7,9 @@ class ThreeBodyProblem:
         Gm2 = 42
         Gm3 = 69
 
-        r1 = [1, 1]
-        r2 = [2, 2]
-        r3 = [3, 3]
+        r1 = [1, 1, 0]
+        r2 = [2, 2, 0]
+        r3 = [3, 3, 0]
 
         for i in range(10):
             r1 = -Gm2*(r1-r2)/(r1-r2)**3 - -Gm2(r1-r2)*(r1-r2)**3
@@ -24,5 +24,5 @@ class ThreeBodyProblem:
                 ShowCreation(circle3),
         )
 
-class __main__():
+def __main__():
     return 0
