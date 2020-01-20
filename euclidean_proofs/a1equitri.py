@@ -1,4 +1,4 @@
-from manimlib.imports import *
+from manimlib import *
 
 def get_intersection(mob1, mob2):
     for p1 in mob1.points:

@@ -1,4 +1,5 @@
-from manimlib.imports import *
+from manimlib import *
+
 
 from euclidean_proofs.a1equitri import get_intersection
 

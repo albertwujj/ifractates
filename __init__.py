@@ -3,7 +3,7 @@ import manimlib.config
 import manimlib.constants
 import manimlib.extract_scene
 import manimlib.stream_starter
-
+import manimlib.animation
 
 def main():
     args = manimlib.config.parse_cli()
